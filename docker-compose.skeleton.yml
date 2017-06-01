@@ -11,7 +11,6 @@ services:
       - CONSUL_VERSION=${CONSUL_VERSION}
       - CONSULUI_VERSION=${CONSULUI_VERSION}
       - CONSULTEMPLATE_VERSION=${CONSULTEMPLATE_VERSION}
-      - RUBY_VERSION=${RUBY_VERSION}
       - CONSUL_OPTIONS=${CONSUL_OPTIONS}                            # minimal server options
       #- CONTAINER_RESOLVER=route                                   # IP resolver method for container (route/interface, default: route)
       #- CONTAINER_RESOLVER_INTERFACENAME=eth0                      # network interface name for IP resolver (default: eth0)

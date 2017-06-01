@@ -21,7 +21,6 @@ services:
       - CONSUL_VERSION=${CONSUL_VERSION}
       - CONSULUI_VERSION=${CONSULUI_VERSION}
       - CONSULTEMPLATE_VERSION=${CONSULTEMPLATE_VERSION}
-      - RUBY_VERSION=${RUBY_VERSION}
       - CONSUL_OPTIONS=${CONSUL_OPTIONS}                                  # minimal server options
       - CONSUL_DATACENTER=local                                           # datacenter
       - CONSUL_DOMAIN=test                                                # domain name
