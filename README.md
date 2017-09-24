@@ -5,7 +5,7 @@
 
 This docker image includes:
 
-## Features:
+## Features
 * bash (+ themes)
 * oh-my-zsh (+ themes)
 * tmux (+ themes)
